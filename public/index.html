@@ -1,215 +1,550 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Мироненко Даниил Иванович - Резюме</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мироненко Даниил Иванович - Резюме</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet"
+  />
 
-    <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
-    <div class="horizontal-container">
-        <div class="vertical-container" style="width: 60%">
-            <div class="horizontal-container">
-                <div class="block">
-                    <img src="../img/avatar.jpeg" class="avatar">
-                    <h1>Мироненко Даниил</h1>
-                    <h2>Junior Golang Developer</h2>
-                    <br>
+  <div class="horizontal-container">
+    <div class="vertical-container" style="width: 60%">
+      <div class="horizontal-container">
+        <div class="block">
+          <img src="../img/avatar.jpeg" class="avatar" />
+          <h1>Мироненко Даниил</h1>
+          <h2>Junior Golang Developer</h2>
+          <br />
 
-                    <p>Бэкенд-разработчик с опытом продуктовой разработки на Go, интересующийся highload-оптимизациями. Занимался инфраструктурной разработкой на C++. Особое внимание уделяю командной работе, а также инфраструктуре проекта, применяя современные DevOps-подходы и методы Infrastructure as Code (IaC) для повышения эффективности процессов разработки.</p>
-                </div>
-            </div>
-            <div class="block">
-                <h2>Опыт</h2>
-                <hr>
-
-                <div class="project-header">
-                    <h3><a href="https://github.com/go-park-mail-ru/2024_2_NovaCode">NovaMusic</a></h3>
-                    <div class="tags">
-                        <a href="https://www.google.com/search?q=golang" class="tag" target="_blank">golang</a>
-                        <a href="https://www.google.com/search?q=rest" class="tag" target="_blank">rest</a>
-                        <a href="https://www.google.com/search?q=api" class="tag" target="_blank">api</a>
-                        <a href="https://www.google.com/search?q=grpc" class="tag" target="_blank">grpc</a>
-                        <a href="https://www.google.com/search?q=microservices" class="tag" target="_blank">microservices</a>
-                        <a href="https://www.google.com/search?q=postgresql" class="tag" target="_blank">postgresql</a>
-                        <a href="https://www.google.com/search?q=clean+architecture" class="tag" target="_blank">clean arch</a>
-                        <a href="https://www.google.com/search?q=minio" class="tag" target="_blank">minio</a>
-                    </div>
-                </div>
-                <p>Музыкальный стриминговый сервис, реализованный в рамках семестрового командного проекта в VK Education. Проект включает ключевые функции воспроизведения треков, управления плейлистами, полнотекстовый поиск и многое другое.</p>
-                <ul>
-                    <li>реализовал полнотекстовый поиск в PostgreSQL с поддержкой поисковых запросов на русском языке, работал с GIN индексами, весами и кастомными словарями</li>
-                    <li>добавил сбор метрик и настроил дашборд с метриками состояния сервиса, используя Prometheus, Node Exporter и Grafana</li>
-                    <li>активно занимался разработкой RESTful и gRPC микросервисов: реализовал авторизацию на jwt-токенах, внедрил gRPC, добавил загрузку файлов в S3 хранилище, защитил сервис от sql-инъекций, реализовал различные middleware для защиты от CSRF-атак, CORS и многое другое</li>
-                    <li>занимался переходом от модульного монолита к микросервисной архитектуре: добавил gRPC-интерфейсы, почистил зависимости</li>
-                    <li>занимался настройкой инфраструктуры проекта: настроил контейнеризацию в Docker Compose, написал Makefile'ы, добавил алертинг в Telegram</li>
-                    <li>написал Github Actions пайплайны для автоматической проверки кода, непрерывной доставки и развертывания микросервисов на сервере</li>
-                    <li>написал конфигурацию для nginx сервера: проксирование на микросервисы, ssl сертификаты, кэширование, http2, сжатие http-ответов</li>
-                    <li>писал интеграционные и юнит тесты, генерировал моки зависимостей</li>
-                    <li>проводил code review участников команды</li>
-                </ul>
-
-                <div class="project-header">
-                    <h3><a href="https://github.com/daronenko/fiber">Fiber</a></h3>
-                    <div class="tags">
-                        <a href="https://www.google.com/search?q=c%2B%2B" class="tag" target="_blank">c++</a>
-                        <a href="https://www.google.com/search?q=concurrency" class="tag" target="_blank">concurrency</a>
-                        <a href="https://www.google.com/search?q=async" class="tag" target="_blank">async</a>
-                        <a href="https://www.google.com/search?q=fiber" class="tag" target="_blank">fiber</a>
-                        <a href="https://www.google.com/search?q=stackfull" class="tag" target="_blank">stackfull</a>
-                        <a href="https://www.google.com/search?q=futex" class="tag" target="_blank">futex</a>
-                        <a href="https://www.google.com/search?q=cmake" class="tag" target="_blank">cmake</a>
-                        <a href="https://www.google.com/search?q=google+test" class="tag" target="_blank">google test</a>
-                    </div>
-                </div>
-                <p>Библиотека многопоточных кооперативных stackfull файберов для C++, в которой реализованы основные концепции асинхронного программирования для повышения эффективности высоконагруженных систем.</p>
-                <ul>
-                    <li>занимался проектированием модульной архитектуры, продумал read-only интерфейс для файберов</li>
-                    <li>написал обертку для системного вызова futex</li>
-                    <li>проводил анализ и оптимизацию работы файберов, включая внедрение интрузивных очередей и уменьшение количества синхронизаций кэшей процессорных ядер</li>
-                    <li>написал Github Actions пайплайн для сборки и тестирования библиотеки, настроил ccache-кэширование для ускорения компиляции и сборки проекта</li>
-                    <li>занимался настройкой инфраструктуры для разработки библиотеки: настроил контейнеризацию в Docker с эмуляцией x86/64, добавил поддержку выполнения таргетов Makefile как локально, так и внутри контейнера, добавил раздельную debug и release сборку</li>
-                    <li>работал с различными санитайзерами: <em>ASAN</em>, <em>UBSAN</em>, <em>TSAN</em></li>
-                    <li>написал документацию по установке через FetchContent API CMake'а и по работе с компонентами библиотеки</li>
-                    <li>написал и замерил benchmark'и для анализа производительности библиотечных файберов и стандартных потоков <em>std::thread</em></li>
-                    <li>написал unit-тесты, используя фреймворк GoogleTest</li>
-                </ul>
-
-                <div class="project-header">
-                    <h3><a href="https://github.com/daronenko/askme-service">AskMe</a></h3>
-                    <div class="tags">
-                        <a href="https://www.google.com/search?q=python" class="tag" target="_blank">python</a>
-                        <a href="https://www.google.com/search?q=django" class="tag" target="_blank">django</a>
-                        <a href="https://www.google.com/search?q=memcached" class="tag" target="_blank">memcached</a>
-                        <a href="https://www.google.com/search?q=centrifugo" class="tag" target="_blank">centrifugo</a>
-                        <a href="https://www.google.com/search?q=web+socket" class="tag" target="_blank">web socket</a>
-                        <a href="https://www.google.com/search?q=nginx" class="tag" target="_blank">nginx</a>
-                        <a href="https://www.google.com/search?q=gunicorn" class="tag" target="_blank">gunicorn</a>
-                    </div>
-                </div>
-                <p>Сервис, поддерживаемый сообществом, где пользователи могут задавать вопросы и находить на них ответы.</p>
-                <ul>
-                    <li>реализовал real-time сообщения, работающие на web socket'ах через сервер Centrifugo</li>
-                    <li>настроил Gunicorn в качестве application-сервера для улучшения производительности сервиса</li>
-                    <li>добавил кэширование в Memcached для оптимизации работы сервиса</li>
-                    <li>провел нагрузочные тестирования для выявления проблем с производительностью и узких мест</li>
-                    <li>написал конфигурацию для nginx сервера: раздача и кэширование статики, сжатие http-ответов, проксирование запросов</li>
-                    <li>работал с Django Rest Framework для внедрения в сервис AJAX</li>
-                    <li>оптимизировал запросы к ORM, чтобы они вычислялись лениво</li>
-                </ul>
-
-                <blockquote>Подробнее о каждом проекте на <a href="https://github.com/daronenko">GitHub</a>.</blockquote>
-            </div>
-            <div class="block">
-                <h2>Soft Skills</h2>
-                <hr>
-                <ul>
-                    <li>Организация времени</li>
-                    <li>Работа в команде (Agile, Gantt)</li>
-                    <li>Приоритизация задач (MoSCoW, RICE, Kano)</li>
-                    <li>Постановка задач (SMART)</li>
-                    <li>Формулировка функциональных и нефункциональных требований</li>
-                    <li>Предложение идей по улучшению проекта</li>
-                    <li>Управление рисками</li>
-                </ul>
-            </div>
+          <p>
+            Бэкенд-разработчик с опытом продуктовой разработки на Go,
+            интересующийся highload-оптимизациями. Занимался инфраструктурной
+            разработкой на C++. Особое внимание уделяю командной работе, а также
+            инфраструктуре проекта, применяя современные DevOps-подходы и методы
+            Infrastructure as Code (IaC) для повышения эффективности процессов
+            разработки.
+          </p>
         </div>
-        <div class="vertical-container" style="width: 40%; margin-left: 20px">
-            <div class="block">
-                <h2>Контакты</h2>
-                <hr>
-                <p>
-                    <strong>Telegram:</strong> <a href="https://t.me/daronenko">@daronenko</a><br>
-                    <strong>Почта:</strong> <a href="mailto:dan.mironenko@gmail.com">dan.mironenko@gmail.com</a><br>
-                    <strong>Телефон:</strong> <a href="tel:+7(916)708-00-06">+7 (916) 708-00-06</a><br>
-                    <strong>GitHub:</strong> <a href="https://github.com/daronenko">@daronenko</a><br>
-                    <strong>LeetCode:</strong> <a href="https://leetcode.com/daronenko">@daronenko</a><br>
-                    <strong>Языки:</strong> русский, английский<br>
-                    <strong>Город:</strong> Москва<br>
-                </p>
-            </div>
-            <div class="block">
-                <h2>Навыки</h2>
-                <hr>
-                <p>
-                    <strong>Основные языки:</strong> golang, c++, python, c, sql<br>
-                    <strong>Библиотеки & фреймворки:</strong> fiber, uber fx, easyjson, django, c api (python)<br>
-                    <strong>Инструменты:</strong> linux, rest, grpc, web socket, pprof, cgo, nvim, makefile, cmake, swagger<br>
-                    <strong>Инфраструктура:</strong> docker, docker compose, nginx, ci/cd, github actions, prometheus, grafana, centrifugo, alertmanager, gunicorn<br>
-                    <strong>Базы данных & хранилища:</strong> postgresql, memcached, minio<br>
-                </p>
-            </div>
-            <div class="block">
-                <h2>Образование</h2>
-                <hr>
+      </div>
+      <div class="block">
+        <h2>Опыт</h2>
+        <hr />
 
-                <h3>МГТУ им. Н. Э. Баумана</h3>
-                <p>
-                    <em>Москва, 09/22 - н.в.</em><br>
-                    Информатика и вычисительная техника (Компьютерные системы и сети, ИУ6). 4.86/5.00 GPA.<br>
-                    <em>Дисциплины:</em> ООП, сети, ОС, машинно-зависимые языки программирования (NASM, x86/64) и основы компиляции.<br>
-                </p>
-
-                <h3>Образовательный центр VK в МГТУ (ex. Технопарк)</h3>
-                <p>
-                    <em>Москва, 02/24 - н.в.</em><br>
-                    Программа по веб-разработке.<br>
-                    <em>Дисциплины:</em> разработка микросервисов на Go, алгоритмы и структуры данных, cистемный дизайн, СУБД.<br>
-                </p>
-
-                <h3>Последние курсы</h3>
-                <ul>
-                    <li><a href="https://daronenko.github.io/cv/certificates/vk-deep-python.pdf">Углубленный Python от VK Education</a></li>
-                    <li><a href="https://daronenko.github.io/cv/certificates/yandex-algorithm-training-5-0.pdf">Тренировка по алгоритмам 5.0 от Яндекса</a></li>
-                    <li><a href="https://daronenko.github.io/cv/certificates/yandex-algorithm-training-4-0.pdf">Тренировка по алгоритмам 4.0 от Яндекса</a></li>
-                    <li>Открытый лекторий Школы Бэкенд Разработки 2023 от Яндекса</li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLmSYEYYGhnBviRYhIDty-CSTDS16a3whl">Продвинутое программирование на C++ от Ильи Мещерина</a></li>
-                </ul>
-            </div>
-            <div class="block">
-                <h2>Хакатоны</h2>
-                <hr>
-                
-                <div class="project-header">
-                    <h3><a href="https://github.com/go-park-mail-ru/2024_2_NovaCode/tree/main/microservices/csat">CSAT Survey</a></h3>
-                    <div class="tags">
-                        <a href="https://www.google.com/search?q=csat+survey" class="tag" target="_blank">csat survey</a>
-                        <a href="https://www.google.com/search?q=microservice" class="tag" target="_blank">microservice</a>
-                        <a href="https://www.google.com/search?q=http" class="tag" target="_blank">http</a>
-                        <a href="https://www.google.com/search?q=rest" class="tag" target="_blank">rest</a>
-                        <a href="https://www.google.com/search?q=api" class="tag" target="_blank">api</a>
-                    </div>
-                </div>
-                <p>Микросервис CSAT опросов для сервиса NovaMusic, предоставляющий REST API бэкенд для проведения опросов и оценки уровня удовлетворенности пользователей.</p>
-                <ul>
-                    <li>разработал архитектуру микросервиса на основе принципов Clean Architecture</li>
-                    <li>реализовал HTTP ручку для получения CSAT вопросов по заданному топику, а также ручку для сохранения ответа пользователя</li>
-                </ul>
-
-                <div class="project-header">
-                    <h3><a href="https://github.com/yanasirina/vk_hackathon_web_framework">Web Framework</a></h3>
-                    <div class="tags">
-                        <a href="https://www.google.com/search?q=python" class="tag" target="_blank">python</a>
-                        <a href="https://www.google.com/search?q=framework" class="tag" target="_blank">framework</a>
-                        <a href="https://www.google.com/search?q=middleware" class="tag" target="_blank">middleware</a>
-                        <a href="https://www.google.com/search?q=gunicorn" class="tag" target="_blank">gunicorn</a>
-                    </div>
-                </div>
-                <p>Полноценный web framework, поддерживающий создание REST API, раздачу HTML-страниц, server side rendering, механизм middleware, URL-паттерны, query-параметры, конфигурирование web-сервера, редиректы и переопределение логики обработки ошибок (например, 404 Not Found).</p>
-                <ul>
-                    <li>разработал структуру и инфраструктуру проекта: контейнеризацию в Docker, написал Makefile, настроил сборку фреймворка в модуль через <em>setuptools</em>, добавил независимый playground с примером использования</li>
-                    <li>написал Github Actions пайплайн для проверки исходного кода линтерами и запуска unit-тестов</li>
-                    <li>спроектировал архитектуру фреймворка и разделил его на независимые компоненты</li>
-                    <li>интегрировал Gunicorn в качестве основного WSGI-сервера и вынес интерфейс для его конфигурирования на пользовательский уровень</li>
-                    <li>реализовал два вида ответа сервера: json и редирект</li>
-                    <li>разработал механизм middleware и определил интерфейс взаимодействия с ним</li>
-                    <li>реализовал основу для роутера</li>
-                </ul>
-            </div>
+        <div class="project-header">
+          <h3>
+            <a href="https://github.com/go-park-mail-ru/2024_2_NovaCode"
+              >NovaMusic</a
+            >
+          </h3>
+          <div class="tags">
+            <a
+              href="https://www.google.com/search?q=golang"
+              class="tag"
+              target="_blank"
+              >golang</a
+            >
+            <a
+              href="https://www.google.com/search?q=rest"
+              class="tag"
+              target="_blank"
+              >rest</a
+            >
+            <a
+              href="https://www.google.com/search?q=api"
+              class="tag"
+              target="_blank"
+              >api</a
+            >
+            <a
+              href="https://www.google.com/search?q=grpc"
+              class="tag"
+              target="_blank"
+              >grpc</a
+            >
+            <a
+              href="https://www.google.com/search?q=microservices"
+              class="tag"
+              target="_blank"
+              >microservices</a
+            >
+            <a
+              href="https://www.google.com/search?q=postgresql"
+              class="tag"
+              target="_blank"
+              >postgresql</a
+            >
+            <a
+              href="https://www.google.com/search?q=clean+architecture"
+              class="tag"
+              target="_blank"
+              >clean arch</a
+            >
+            <a
+              href="https://www.google.com/search?q=minio"
+              class="tag"
+              target="_blank"
+              >minio</a
+            >
+          </div>
         </div>
+        <p>
+          Музыкальный стриминговый сервис, реализованный в рамках семестрового
+          командного проекта в VK Education. Проект включает ключевые функции
+          воспроизведения треков, управления плейлистами, полнотекстовый поиск и
+          многое другое.
+        </p>
+        <ul>
+          <li>
+            реализовал полнотекстовый поиск в PostgreSQL с поддержкой поисковых
+            запросов на русском языке, работал с GIN индексами, весами и
+            кастомными словарями
+          </li>
+          <li>
+            добавил сбор метрик и настроил дашборд с метриками состояния
+            сервиса, используя Prometheus, Node Exporter и Grafana
+          </li>
+          <li>
+            активно занимался разработкой RESTful и gRPC микросервисов:
+            реализовал авторизацию на jwt-токенах, внедрил gRPC, добавил
+            загрузку файлов в S3 хранилище, защитил сервис от sql-инъекций,
+            реализовал различные middleware для защиты от CSRF-атак, CORS и
+            многое другое
+          </li>
+          <li>
+            занимался переходом от модульного монолита к микросервисной
+            архитектуре: добавил gRPC-интерфейсы, почистил зависимости
+          </li>
+          <li>
+            занимался настройкой инфраструктуры проекта: настроил
+            контейнеризацию в Docker Compose, написал Makefile'ы, добавил
+            алертинг в Telegram
+          </li>
+          <li>
+            написал Github Actions пайплайны для автоматической проверки кода,
+            непрерывной доставки и развертывания микросервисов на сервере
+          </li>
+          <li>
+            написал конфигурацию для nginx сервера: проксирование на
+            микросервисы, ssl сертификаты, кэширование, http2, сжатие
+            http-ответов
+          </li>
+          <li>
+            писал интеграционные и юнит тесты, генерировал моки зависимостей
+          </li>
+          <li>проводил code review участников команды</li>
+        </ul>
+
+        <div class="project-header">
+          <h3><a href="https://github.com/daronenko/fiber">Fiber</a></h3>
+          <div class="tags">
+            <a
+              href="https://www.google.com/search?q=c%2B%2B"
+              class="tag"
+              target="_blank"
+              >c++</a
+            >
+            <a
+              href="https://www.google.com/search?q=concurrency"
+              class="tag"
+              target="_blank"
+              >concurrency</a
+            >
+            <a
+              href="https://www.google.com/search?q=async"
+              class="tag"
+              target="_blank"
+              >async</a
+            >
+            <a
+              href="https://www.google.com/search?q=fiber"
+              class="tag"
+              target="_blank"
+              >fiber</a
+            >
+            <a
+              href="https://www.google.com/search?q=stackfull"
+              class="tag"
+              target="_blank"
+              >stackfull</a
+            >
+            <a
+              href="https://www.google.com/search?q=futex"
+              class="tag"
+              target="_blank"
+              >futex</a
+            >
+            <a
+              href="https://www.google.com/search?q=cmake"
+              class="tag"
+              target="_blank"
+              >cmake</a
+            >
+            <a
+              href="https://www.google.com/search?q=google+test"
+              class="tag"
+              target="_blank"
+              >google test</a
+            >
+          </div>
+        </div>
+        <p>
+          Библиотека многопоточных кооперативных stackfull файберов для C++, в
+          которой реализованы основные концепции асинхронного программирования
+          для повышения эффективности высоконагруженных систем.
+        </p>
+        <ul>
+          <li>
+            занимался проектированием модульной архитектуры, продумал read-only
+            интерфейс для файберов
+          </li>
+          <li>написал обертку для системного вызова futex</li>
+          <li>
+            проводил анализ и оптимизацию работы файберов, включая внедрение
+            интрузивных очередей и уменьшение количества синхронизаций кэшей
+            процессорных ядер
+          </li>
+          <li>
+            написал Github Actions пайплайн для сборки и тестирования
+            библиотеки, настроил ccache-кэширование для ускорения компиляции и
+            сборки проекта
+          </li>
+          <li>
+            занимался настройкой инфраструктуры для разработки библиотеки:
+            настроил контейнеризацию в Docker с эмуляцией x86/64, добавил
+            поддержку выполнения таргетов Makefile как локально, так и внутри
+            контейнера, добавил раздельную debug и release сборку
+          </li>
+          <li>
+            работал с различными санитайзерами: <em>ASAN</em>, <em>UBSAN</em>,
+            <em>TSAN</em>
+          </li>
+          <li>
+            написал документацию по установке через FetchContent API CMake'а и
+            по работе с компонентами библиотеки
+          </li>
+          <li>
+            написал и замерил benchmark'и для анализа производительности
+            библиотечных файберов и стандартных потоков <em>std::thread</em>
+          </li>
+          <li>написал unit-тесты, используя фреймворк GoogleTest</li>
+        </ul>
+
+        <div class="project-header">
+          <h3>
+            <a href="https://github.com/daronenko/askme-service">AskMe</a>
+          </h3>
+          <div class="tags">
+            <a
+              href="https://www.google.com/search?q=python"
+              class="tag"
+              target="_blank"
+              >python</a
+            >
+            <a
+              href="https://www.google.com/search?q=django"
+              class="tag"
+              target="_blank"
+              >django</a
+            >
+            <a
+              href="https://www.google.com/search?q=memcached"
+              class="tag"
+              target="_blank"
+              >memcached</a
+            >
+            <a
+              href="https://www.google.com/search?q=centrifugo"
+              class="tag"
+              target="_blank"
+              >centrifugo</a
+            >
+            <a
+              href="https://www.google.com/search?q=web+socket"
+              class="tag"
+              target="_blank"
+              >web socket</a
+            >
+            <a
+              href="https://www.google.com/search?q=nginx"
+              class="tag"
+              target="_blank"
+              >nginx</a
+            >
+            <a
+              href="https://www.google.com/search?q=gunicorn"
+              class="tag"
+              target="_blank"
+              >gunicorn</a
+            >
+          </div>
+        </div>
+        <p>
+          Сервис, поддерживаемый сообществом, где пользователи могут задавать
+          вопросы и находить на них ответы.
+        </p>
+        <ul>
+          <li>
+            реализовал real-time сообщения, работающие на web socket'ах через
+            сервер Centrifugo
+          </li>
+          <li>
+            настроил Gunicorn в качестве application-сервера для улучшения
+            производительности сервиса
+          </li>
+          <li>
+            добавил кэширование в Memcached для оптимизации работы сервиса
+          </li>
+          <li>
+            провел нагрузочные тестирования для выявления проблем с
+            производительностью и узких мест
+          </li>
+          <li>
+            написал конфигурацию для nginx сервера: раздача и кэширование
+            статики, сжатие http-ответов, проксирование запросов
+          </li>
+          <li>работал с Django Rest Framework для внедрения в сервис AJAX</li>
+          <li>оптимизировал запросы к ORM, чтобы они вычислялись лениво</li>
+        </ul>
+
+        <blockquote>
+          Подробнее о каждом проекте на
+          <a href="https://github.com/daronenko">GitHub</a>.
+        </blockquote>
+      </div>
+      <div class="block">
+        <h2>Soft Skills</h2>
+        <hr />
+        <ul>
+          <li>Организация времени</li>
+          <li>Работа в команде (Agile, Gantt)</li>
+          <li>Приоритизация задач (MoSCoW, RICE, Kano)</li>
+          <li>Постановка задач (SMART)</li>
+          <li>Формулировка функциональных и нефункциональных требований</li>
+          <li>Предложение идей по улучшению проекта</li>
+          <li>Управление рисками</li>
+        </ul>
+      </div>
     </div>
+    <div class="vertical-container" style="width: 40%; margin-left: 20px">
+      <div class="block">
+        <h2>Контакты</h2>
+        <hr />
+        <p>
+          <strong>Telegram:</strong>
+          <a href="https://t.me/danmironenko">@danmironenko</a><br />
+          <strong>Почта:</strong>
+          <a href="mailto:dan.mironenko@gmail.com">dan.mironenko@gmail.com</a
+          ><br />
+          <strong>Телефон:</strong>
+          <a href="tel:+7(916)708-00-06">+7 (916) 708-00-06</a><br />
+          <strong>GitHub:</strong>
+          <a href="https://github.com/dmironenko">@dmironenko</a><br />
+          <strong>LeetCode:</strong>
+          <a href="https://leetcode.com/daronenko">@daronenko</a><br />
+          <strong>Языки:</strong> русский, английский<br />
+          <strong>Город:</strong> Москва<br />
+        </p>
+      </div>
+      <div class="block">
+        <h2>Навыки</h2>
+        <hr />
+        <p>
+          <strong>Основные языки:</strong> golang, c++, python, c, sql<br />
+          <strong>Библиотеки & фреймворки:</strong> fiber, uber fx, easyjson,
+          django, c api (python)<br />
+          <strong>Инструменты:</strong> linux, rest, grpc, web socket, pprof,
+          cgo, nvim, makefile, cmake, swagger<br />
+          <strong>Инфраструктура:</strong> docker, docker compose, nginx, ci/cd,
+          github actions, prometheus, grafana, centrifugo, alertmanager,
+          gunicorn<br />
+          <strong>Базы данных & хранилища:</strong> postgresql, memcached,
+          minio<br />
+        </p>
+      </div>
+      <div class="block">
+        <h2>Образование</h2>
+        <hr />
+
+        <h3>МГТУ им. Н. Э. Баумана</h3>
+        <p>
+          <em>Москва, 09/22 - н.в.</em><br />
+          Информатика и вычисительная техника (Компьютерные системы и сети,
+          ИУ6). 4.86/5.00 GPA.<br />
+          <em>Дисциплины:</em> ООП, сети, ОС, машинно-зависимые языки
+          программирования (NASM, x86/64) и основы компиляции.<br />
+        </p>
+
+        <h3>Образовательный центр VK в МГТУ (ex. Технопарк)</h3>
+        <p>
+          <em>Москва, 02/24 - н.в.</em><br />
+          Программа по веб-разработке.<br />
+          <em>Дисциплины:</em> разработка микросервисов на Go, алгоритмы и
+          структуры данных, cистемный дизайн, СУБД.<br />
+        </p>
+
+        <h3>Последние курсы</h3>
+        <ul>
+          <li>
+            <a
+              href="https://daronenko.github.io/cv/certificates/vk-deep-python.pdf"
+              >Углубленный Python от VK Education</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://daronenko.github.io/cv/certificates/yandex-algorithm-training-5-0.pdf"
+              >Тренировка по алгоритмам 5.0 от Яндекса</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://daronenko.github.io/cv/certificates/yandex-algorithm-training-4-0.pdf"
+              >Тренировка по алгоритмам 4.0 от Яндекса</a
+            >
+          </li>
+          <li>Открытый лекторий Школы Бэкенд Разработки 2023 от Яндекса</li>
+          <li>
+            <a
+              href="https://www.youtube.com/playlist?list=PLmSYEYYGhnBviRYhIDty-CSTDS16a3whl"
+              >Продвинутое программирование на C++ от Ильи Мещерина</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="block">
+        <h2>Хакатоны</h2>
+        <hr />
+
+        <div class="project-header">
+          <h3>
+            <a
+              href="https://github.com/go-park-mail-ru/2024_2_NovaCode/tree/main/microservices/csat"
+              >CSAT Survey</a
+            >
+          </h3>
+          <div class="tags">
+            <a
+              href="https://www.google.com/search?q=csat+survey"
+              class="tag"
+              target="_blank"
+              >csat survey</a
+            >
+            <a
+              href="https://www.google.com/search?q=microservice"
+              class="tag"
+              target="_blank"
+              >microservice</a
+            >
+            <a
+              href="https://www.google.com/search?q=http"
+              class="tag"
+              target="_blank"
+              >http</a
+            >
+            <a
+              href="https://www.google.com/search?q=rest"
+              class="tag"
+              target="_blank"
+              >rest</a
+            >
+            <a
+              href="https://www.google.com/search?q=api"
+              class="tag"
+              target="_blank"
+              >api</a
+            >
+          </div>
+        </div>
+        <p>
+          Микросервис CSAT опросов для сервиса NovaMusic, предоставляющий REST
+          API бэкенд для проведения опросов и оценки уровня удовлетворенности
+          пользователей.
+        </p>
+        <ul>
+          <li>
+            разработал архитектуру микросервиса на основе принципов Clean
+            Architecture
+          </li>
+          <li>
+            реализовал HTTP ручку для получения CSAT вопросов по заданному
+            топику, а также ручку для сохранения ответа пользователя
+          </li>
+        </ul>
+
+        <div class="project-header">
+          <h3>
+            <a href="https://github.com/yanasirina/vk_hackathon_web_framework"
+              >Web Framework</a
+            >
+          </h3>
+          <div class="tags">
+            <a
+              href="https://www.google.com/search?q=python"
+              class="tag"
+              target="_blank"
+              >python</a
+            >
+            <a
+              href="https://www.google.com/search?q=framework"
+              class="tag"
+              target="_blank"
+              >framework</a
+            >
+            <a
+              href="https://www.google.com/search?q=middleware"
+              class="tag"
+              target="_blank"
+              >middleware</a
+            >
+            <a
+              href="https://www.google.com/search?q=gunicorn"
+              class="tag"
+              target="_blank"
+              >gunicorn</a
+            >
+          </div>
+        </div>
+        <p>
+          Полноценный web framework, поддерживающий создание REST API, раздачу
+          HTML-страниц, server side rendering, механизм middleware,
+          URL-паттерны, query-параметры, конфигурирование web-сервера, редиректы
+          и переопределение логики обработки ошибок (например, 404 Not Found).
+        </p>
+        <ul>
+          <li>
+            разработал структуру и инфраструктуру проекта: контейнеризацию в
+            Docker, написал Makefile, настроил сборку фреймворка в модуль через
+            <em>setuptools</em>, добавил независимый playground с примером
+            использования
+          </li>
+          <li>
+            написал Github Actions пайплайн для проверки исходного кода
+            линтерами и запуска unit-тестов
+          </li>
+          <li>
+            спроектировал архитектуру фреймворка и разделил его на независимые
+            компоненты
+          </li>
+          <li>
+            интегрировал Gunicorn в качестве основного WSGI-сервера и вынес
+            интерфейс для его конфигурирования на пользовательский уровень
+          </li>
+          <li>реализовал два вида ответа сервера: json и редирект</li>
+          <li>
+            разработал механизм middleware и определил интерфейс взаимодействия
+            с ним
+          </li>
+          <li>реализовал основу для роутера</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </body>
+

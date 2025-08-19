@@ -1,1 +1,1 @@
-[Click here.](https://daronenko.github.io/cv/ru.pdf)
+[Click here.](https://dmironenko.github.io/cv/ru.pdf)
